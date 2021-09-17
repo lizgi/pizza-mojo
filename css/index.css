@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    box-sizing: border-box;
+    width:100%;
+    margin: auto;
+    }
+
+    #Home{
+        background-image:url("../images/display.jpg");
+        background-size: cover;
+        height: 120vh;
+        background-repeat:no-repeat ;
+        background-size: cover;
+        position: relative;
+        text-align: center;
+        color:white;
+      
+    }
+    header .navbar a{
+        font-size: 2rem;
+        margin-left: 2rem;
+        color:#666;
+    }

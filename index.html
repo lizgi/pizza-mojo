@@ -9,31 +9,45 @@
     <title>Pizza_Mojo</title>
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top scrolling-navbar">
-        <h1 id="pizza" class="">Pizza_<span id="spantext">Mojo</span></h1>
-        <div class="container-fluid">
-            <div class="navbar-nav ">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Menu</a>
-              <a class="nav-link" href="#">Order</a>
-              <a class="nav-link" href="#">Contact</a>
-            </div>
-          </div>
-        </div>
-      </nav>
+
+    <!--navigation bar-->
+<div class="navbar py-1 navbar-light navbar-expand-sm bg-danger ">
+
+    <a href="#" class="navbar-brand text-uppercase font-italic"><img src="images/display.jpg" 
+        height="100" width="100" class=" round rounded-circle"></a>
+    <button class="navbar-toggler" type="" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav ">
+            <li class="nav-item active">
+                <a href="#header" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a href="#menu" class="nav-link">MENU</a>
+            </li>
+            <li class="nav-item">
+                <a href="#order" class="nav-link">ORDER</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">CONTACT US</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--end nav-->
 
       <!--home section-->
-      <div id="Home"></div>
-        <div class="display container ">
-           <h3>PIZZA_MOJO</h3>
-             <P>The place to be,,,<br>
-               COME EXPERIENCE THE MAGIC</P>
+
+      <div id="Home" class="display"></div>
+              <h6>PIZZA_MOJO</h6>
+                <h5>The place to be,,,<br>
+                  COME EXPERIENCE THE MAGIC</h5>
         </div>
-           <h3>Pizaa_Mojo</h3>
-
-
+           
       <!--ends home-->
 
       <!--menu start-->
@@ -44,15 +58,15 @@
               <h1 class="text-center text-white" id="menu">Menu</h1>
               <div class="pizza-menu row text-center">
                   <figure class="col-sm-4">
-                      <img src="images/small.jpg" alt="small-pizza" class="wiggle">
-                      <figcaption class="text-white">Regular<br>Ksh.600</figcaption>
+                      <img src="images/small.jpg" alt="small-pizza" class="measure">
+                      <measure class="text-white">Regular<br>Ksh.600</measure>
                   </figure>
                   <figure class="col-sm-4">
-                      <img src="images/medium.png" alt="medium-pizza" class="wiggle">
+                      <img src="images/medium.png" alt="medium-pizza" class="measure">
                       <figcaption class="text-white">Medium<br>Ksh.900</figcaption>
                   </figure>
                   <figure class="col-sm-4">
-                      <img src="images/large.png" alt="large-pizza" class="wiggle">
+                      <img src="images/large.png" alt="large-pizza" class="measure">
                       <figcaption class="text-white">Large<br>Ksh. 1200</figcaption>
                   </figure>
               </div>
