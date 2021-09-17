@@ -8,20 +8,3 @@ body{
     width:100%;
     margin: auto;
     }
-
-    #Home{
-        background-image:url("../images/display.jpg");
-        background-size: cover;
-        height: 120vh;
-        background-repeat:no-repeat ;
-        background-size: cover;
-        position: relative;
-        text-align: center;
-        color:white;
-      
-    }
-    header .navbar a{
-        font-size: 2rem;
-        margin-left: 2rem;
-        color:#666;
-    }
