@@ -8,3 +8,16 @@ body{
     width:100%;
     margin: auto;
     }
+    #header{
+        background:url(../images/home.jpg) center/cover no-repeat fixed;
+    }
+    
+    .height{
+        min-height: 80vh;
+    }
+    .height-70{
+        min-width: 100vh;
+    }
+    #about{
+        background-color: rgb(167, 60, 60);
+    }
