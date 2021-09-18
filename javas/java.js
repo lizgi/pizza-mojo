@@ -63,7 +63,7 @@ $(document).ready(function () {
         var name = $('#name').val();
         var pass = $('#email').val();
         var mess = $('#mess').val();
-        alert("Hi " + name + " we have received your message and we will get in touch. Thank you for contacting us.");
+        alert("Hi " + name + " response well received.We will ge back to you,,Thankyou!!");
     });
 
 
