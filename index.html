@@ -114,7 +114,7 @@
                 
                 <div class="card-body bg-warning text-center">
                     <h5 class="card-title text-capitalize">chicken Tikkaa</h5>
-                    <p class="card-text">At affordable price</p>
+                    <p class="card-text">our best seller,,affordable.</p>
                 </div>
             </div>
         </div>
@@ -125,7 +125,7 @@
                 <img src="./images/cheeses.jpeg" alt="pizza" class="card-img-top">
                 <div class="card-body bg-warning text-center">
                     <h5 class="card-title text-capitalize">Bbq steak</h5>
-                    <p class="card-text">Now available in our shop</p>
+                    <p class="card-text">a sweet delicacy</p>
                 </div>
             </div>
         </div>
@@ -136,7 +136,7 @@
                 <img src="./images/pepperoni.jpg" alt="pizza" class="card-img-top">
                 <div class="card-body bg-warning text-center">
                     <h5 class="card-title text-capitalize">hawaaian</h5>
-                    <p class="card-text">At affordable price</p>
+                    <p class="card-text">this yummy treat,,,among many many more</p>
                 </div>
             </div>
         </div>
@@ -160,6 +160,101 @@
 
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-4 mx-auto py-2">
+                    <form id = "myForm">
+                        <div class="form-group">
+                            <label for="sel1">Select type:</label>
+                            <select class="form-control" id="type">
+                                <option>chicken Tiikka</option>
+                                <option>Bbq Steak</option>
+                                <option>Hawaian</option>
+                                <option>Meat Deluxe</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sel1">Select size:</label>
+                            <select class="form-control" id="size">
+                                <option value="1">Large---1200</option>
+                                <option value="2">Medium---800</option>
+                                <option value="3">Small---600</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sel1">Select crust:</label>
+                            <select class="form-control" id="crust">
+                                <option>Cripsy</option>
+                                <option>Stuffed</option>
+                                <option>Gluten-free</option>
+                                <option>Margherita</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sel1">Select topping:</label>
+                            <select class="form-control" id="top">
+                                <option>Mushrooms</option>
+                                <option>onions</option>
+                                <option>Sausage</option>
+                                <option>Bacon</option>
+                            </select>
+                        </div>
+                        <div class="form-group" required>
+                            <label for="sel1">Quantity:</label>
+                            <input type="number" id="qty" class="form-control" min="1" required>
+                        </div>
+                        <div class="form-group" required="">
+                            <label for="sel1">Delivery option:</label>
+                            <select class="form-control" id="pick">
+                                <option value="1">Self pick up</option>
+                                <option value="2">Delivered</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+    
+                            <button type="submit" class="btn btn-danger btn-block">checkout</button>
+    
+                        </div>
+                    </form>
+                </div>
+    
+            </div>
+            </div>    
+                            
+      <!--contact section-->
+      <section id="contact" class="py-5  bg-warning">
+        <div class="container">
+            <!--section title-->
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-uppercase text-dark mb-0">
+                        <strong>contact</strong>
+                    </h1>
+       </div>
+       <form id="contactForm">
+        <!--simple form-->
+        <div class="form-group mt-3">
+            <input type="text" class="form-control form-control-lg" id="name" placeholder="name"
+                required>
+        </div>
+        <!--email-->
+        <div class="form-group mt-3">
+            <input type="email" class="form-control form-control-lg " placeholder="email"
+                id="email" required>
+        </div>
+        <!--phone-->
+        <div class="form-group mt-3">
+            <input type="text" id="mess" class="form-control" placeholder="write your message here..." required>
+        </div>
+        <button type="submit"
+            class="btn btn-danger btn-block text-uppercase">submit</button>
+
+    </form>
+</div>
+</div>
+
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>      
     <script src="javas/java.js"></script>
