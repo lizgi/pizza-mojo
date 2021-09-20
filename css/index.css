@@ -9,7 +9,10 @@ body{
     margin: auto;
     background:url("../images/display.jpg") center/cover no-repeat fixed;
     }
-    
+    .home{
+        background:url(../images/home.jpg)center/cover no-repeat fixed;
+        
+    }
 
     .about{
         background:url(../images/home.jpg) center/cover no-repeat fixed;
