@@ -11,7 +11,7 @@ body{
     }
     
 
-    #header{
+    .about{
         background:url(../images/home.jpg) center/cover no-repeat fixed;
     }
     
@@ -21,6 +21,9 @@ body{
     .height-70{
         min-width: 100vh;
     }
-    #about{
-        background-color: rgb(167, 60, 60);
+    .about-picture{
+        background: url(../images/home.jpg)
+        
+        center/cover no-repeat fixed;
     }
+    
